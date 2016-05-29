@@ -309,6 +309,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 	         				        	
 	        	//Se crea buffer para el append de los datos al arhivo. El mtodo FileWriter setea el modo
 	        	//append
+
 	        	BufferedWriter OSW = new BufferedWriter(new FileWriter(file, true));
 	        				        	
 	            Iterator<String> it = lista_estados.iterator();
